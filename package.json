@@ -1,5 +1,24 @@
 {
   "dependencies": {
     "discord.js": "^12.5.1"
-  }
+  },
+  "name": "key-converter",
+  "description": "TF2 Key Converter: Converts TF2 keys and refined metal into Philippine Pesos\r Copyright (C) 2021  KingMarine",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KingMarine-GH/key-converter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KingMarine-GH/key-converter/issues"
+  },
+  "homepage": "https://github.com/KingMarine-GH/key-converter#readme"
 }
