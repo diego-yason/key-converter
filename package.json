@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/KingMarine-GH/key-converter#readme",
   "dependencies": {
-    "discord.js": "^12.5.1"
+    "discord.js": "^12.5.1",
+    "request": "^2.88.2"
   }
 }
