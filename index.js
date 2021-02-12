@@ -30,6 +30,10 @@ async function convertToPeso() {
     }
 }
 
+function hundredths(amount) {
+    return ((Math.round(amount*100))/100);
+}
+
 client.once("ready", () => {
     console.log("Ready");
 });
@@ -50,20 +54,22 @@ client.on("message", async message => {
         }
 
         const currency = backpack.data.response.currencies;
+        const keys = currency.keys.price.value;
+        const metal = currency.metal.price.value;
+        const earbuds = currency.earbuds.price.value;
         const PHP = conversion.data.results.USD_PHP.val;
 
         switch (args[0]) {
             case "ref":
             case "metal":
-                const metal = currency.metal
-                message.reply(`The current value of refined metal is PHP${Math.round(100*(metal.price.value*PHP))/100}`)
+                message.reply(`The current value of 1 refined metal is PHP${hundredths(metal*PHP)}`);
                 break;
             case "key":
             case "keys":
-                const keys = currency.keys
+                message.reply(`The current value of 1 Mann Co. Supply Crate Key is PHP${hundredths(keys*metal*PHP)}`);
                 break;
             case "earbuds":
-                const earbuds = currency.earbuds
+                message.reply(`The current value of 1 earbud is PHP${hundredths(keys*metal*earbuds*PHP)}`);
                 break;
         }
     }
