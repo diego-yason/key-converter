@@ -3,7 +3,9 @@ APIs Used
 This bot uses the following APIs from the following websites:
 
 [backpack.tf](backpack.tf)
+
 [Steam](steampowered.com)
+
 [Exchange Rates API](exchangeratesapi.io)
 
 Supported Commands
