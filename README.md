@@ -15,6 +15,7 @@ Supported Commands
 Planned Commands
 ======
 `tf!fabricators` - Gets all fabricators in your inventory
+
 `tf!fill` - Calculate an approximate price for all the parts needed for a fabricator (KS weapon included)
 
 License
