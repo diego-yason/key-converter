@@ -1,3 +1,22 @@
+APIs Used
+======
+This bot uses the following APIs from the following websites:
+
+[backpack.tf](backpack.tf)
+[Steam](steampowered.com)
+[Exchange Rates API](exchangeratesapi.io)
+
+Supported Commands
+======
+`tf!get` - Gets the current value of metal/keys/earbuds in Philippine Pesos
+
+Planned Commands
+======
+`tf!fabricators` - Gets all fabricators in your inventory
+`tf!fill` - Calculate an approximate price for all the parts needed for a fabricator (KS weapon included)
+
+License
+======
 TF2 Key Converter: Converts TF2 keys and refined metal into Philippine Pesos
 Copyright (C) 2021  KingMarine
 
