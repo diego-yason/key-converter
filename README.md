@@ -1,3 +1,9 @@
+Bot Invite
+======
+I doubt you have a lot of use for this bot but if you want to use it for some reason, go ahead
+
+[invite link](https://discord.com/api/oauth2/authorize?client_id=808296196816896010&permissions=0&redirect_uri=https%3A%2F%2Fgithub.com%2FKingMarine-GH%2Fkey-converter&scope=bot)
+
 APIs Used
 ======
 This bot uses the following APIs from the following websites:
